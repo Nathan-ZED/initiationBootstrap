@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+
+.conteneur {
+    max-width: 1080px;
+    margin: auto;
+}
+
+header ul {
+    list-style: none;
+}
+
+header img {
+    width: 100px;
+}
+
+header {
+    background: linear-gradient(to right, rgba(234, 145, 145, 0.747), rgba(75, 73, 116, 0.644)), url(/img/photo.jpeg);
+    background-position: center;
+}
+
+header nav {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.5rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header #texte {
+    display: flex;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+header p {
+    font-family: 'Rockwell', sans-serif;
+    font-size: 10px;
+}
+
+header #svg {
+    display: flex;
+    justify-content: center;
+}
+
+header svg {
+    font-size: 65px;
+    margin-bottom: -16px;
+    color: white;
+}
+
+header #texte a {
+    border-radius: 50px;
+    background-color: #fff;
+    color: #EA9191;
+    font-size: 10px;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header #texte a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #EA9191;
+}
+
+.bloc {
+    background-image: url(/img/grain.png);
+    background-size: cover;
+    background-color: #E6B331;
+    width: 150px;
+    height: 150px;
+
+}
+
+#bloc {
+    margin-left: 9rem;
+    margin-top: 3rem;
+}
+
+#bloc h2 {
+    padding-top: 4.5rem;
+    padding-left: 35px;
+    margin-right: -5rem;
+    font-size: 25px;
+    font-family: 'Rockwell', sans-serif;
+}
+
+ul img {
+    margin-top: -1rem;
+    width: 30px;
+    height: 30px;
+}
+
+#articles h3 {
+    font-family: 'Rockwell', sans-serif;
+    color: rgb(75, 73, 116);
+    font-size: 12px;
+}
+
+#articles p {
+    font-size: 10px;
+}
+
+#articles ul {
+    list-style: none;
+}
